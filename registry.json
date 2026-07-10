@@ -23,7 +23,7 @@
     },
     {
       "name": "ascii-art",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Generates ASCII art in various styles: text banners with 571 fonts (pyfiglet), speech bubbles with animal characters (cowsay/cowthink), decorative frames (boxes), prebuilt art for common subjects, QR codes, ASCII weather and image → ASCII art conversion.",
       "author": "info@rstonline.it",
       "license": "MIT",
@@ -37,9 +37,9 @@
         ],
         "javascript": []
       },
-      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/ascii-art/1.0.0/ascii-art-skill-v1.0.0.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/ascii-art/1.0.1/ascii-art-skill-v1.0.1.zip",
       "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/ascii-art",
-      "publishedAt": "2026-05-25T17:00:00Z"
+      "publishedAt": "2026-07-10T00:00:00Z"
     },
     {
       "name": "pdf-generator-html",

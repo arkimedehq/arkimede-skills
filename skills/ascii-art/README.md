@@ -1,6 +1,6 @@
 # ascii-art
 
-**Version:** 1.0.0 · **License:** MIT · **Author:** personalAgent
+**Version:** 1.0.1 · **License:** MIT · **Author:** personalAgent
 
 Skill that generates ASCII art in all its forms: text banners with hundreds of fonts, speech bubbles with animal characters, decorative frames, ready-made art for common subjects, image conversion, QR codes, and ASCII weather.
 

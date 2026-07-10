@@ -13,7 +13,7 @@ Skills are ZIP packages that extend the Agentory AI with executable scripts (Pyt
 | Name | Version | Language | Description |
 |------|---------|----------|-------------|
 | [dxf-analyzer](skills/dxf-analyzer/) | 1.1.0 | Python | Analyzes AutoCAD DXF files; extracts geometric entities, layers, blocks, metadata and statistics; saves a full JSON report with download\_url |
-| [ascii-art](skills/ascii-art/) | 1.0.0 | Python | Text banners (571 fonts), cowsay speech bubbles, decorative frames, prebuilt art, QR codes, weather and image-to-ASCII-art conversion |
+| [ascii-art](skills/ascii-art/) | 1.0.1 | Python | Text banners (571 fonts), cowsay speech bubbles, decorative frames, prebuilt art, QR codes, weather and image-to-ASCII-art conversion |
 | [files](skills/files/) | 1.0.1 | Python | Unified file management across the local filesystem and network shares (SMB, SFTP, WebDAV): search with automatic fan-out, read (text/attach/embed), write and delete |
 | [pdf-generator-html](skills/pdf-generator-html/) | 1.1.0 | Node.js | Generates A4 PDFs from HTML via Puppeteer; supports tables, inline styles and inter-skill file sharing |
 | [gmail](skills/gmail/) | 1.3.0 | Python | Sends, reads, lists, replies to and forwards email via the Gmail API with OAuth2; supports attachments and a real-time daemon with configurable polling interval |
