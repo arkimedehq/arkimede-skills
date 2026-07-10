@@ -1,0 +1,156 @@
+{
+  "version": "1",
+  "updatedAt": "2026-07-10T00:00:00Z",
+  "skills": [
+    {
+      "name": "dxf-analyzer",
+      "version": "1.1.0",
+      "description": "Analyzes DXF files (Drawing Exchange Format / AutoCAD): extracts geometric entities (LINE, ARC, CIRCLE, TEXT, INSERT, DIMENSION…), layers, blocks, metadata and statistics. Always saves a full JSON report to file; stdout returns only a lightweight summary with download_url. Supports all DXF versions (R10–R2018).",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python"],
+      "tags": ["dxf", "cad", "autocad", "geometry", "layer", "analysis", "drawing"],
+      "scriptCount": 1,
+      "dependencies": {
+        "python": [
+          "ezdxf>=1.3.0"
+        ],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/dxf-analyzer/1.1.0/dxf-analyzer-skill-v1.1.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/dxf-analyzer",
+      "publishedAt": "2026-05-26T10:00:00Z"
+    },
+    {
+      "name": "ascii-art",
+      "version": "1.0.0",
+      "description": "Generates ASCII art in various styles: text banners with 571 fonts (pyfiglet), speech bubbles with animal characters (cowsay/cowthink), decorative frames (boxes), prebuilt art for common subjects, QR codes, ASCII weather and image → ASCII art conversion.",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python"],
+      "tags": ["ascii", "art", "banner", "pyfiglet", "cowsay", "speech-bubbles", "decoration", "qr", "weather"],
+      "scriptCount": 6,
+      "dependencies": {
+        "python": [
+          "pyfiglet>=1.0",
+          "requests>=2.31"
+        ],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/ascii-art/1.0.0/ascii-art-skill-v1.0.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/ascii-art",
+      "publishedAt": "2026-05-25T17:00:00Z"
+    },
+    {
+      "name": "pdf-generator-html",
+      "version": "1.1.0",
+      "description": "Generates professional A4 PDFs from HTML via Puppeteer (headless Chromium). Supports full HTML/CSS: styled tables, headers, lists, inline styles. Ideal for quotes, reports, invoices. Returns absolute file_path for inter-skill use (e.g. Gmail attachments).",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["node"],
+      "tags": ["pdf", "html", "puppeteer", "documents", "report"],
+      "scriptCount": 1,
+      "dependencies": {
+        "python": [],
+        "javascript": ["puppeteer@22"]
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/pdf-generator-html/1.1.0/pdf-generator-html-skill-v1.1.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/pdf-generator-html",
+      "publishedAt": "2026-05-25T15:00:00Z"
+    },
+    {
+      "name": "gmail",
+      "version": "1.3.0",
+      "description": "Full Gmail integration. Sends, reads, lists, replies to and forwards email via the official Google Gmail API with OAuth2. Supports outgoing attachments (send, reply, forward) with automatic MIME detection. Includes a real-time monitoring daemon (watch via History API) that instantly push-notifies the backend when new email arrives in the INBOX; polling interval configurable via GMAIL_POLL_INTERVAL.",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python"],
+      "tags": ["gmail", "email", "mail", "google", "communication"],
+      "scriptCount": 10,
+      "dependencies": {
+        "python": [
+          "google-api-python-client>=2.100",
+          "google-auth>=2.20",
+          "google-auth-httplib2>=0.2",
+          "httplib2>=0.22"
+        ],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/gmail/1.3.0/gmail-skill-v1.3.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/gmail",
+      "publishedAt": "2026-05-27T08:04:00Z"
+    },
+    {
+      "name": "als-recommender",
+      "version": "1.2.0",
+      "description": "Collaborative Filtering via ALS (Alternating Least Squares): trains models on CSV data and provides seed- or session-based recommendations, item-item cosine similarity, KMeans cluster profiles, anomaly detection and cold-start fallback. Supports implicit, explicit and biased variants. Callable as an ML service from other skills via the inter-skill bus.",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python"],
+      "tags": ["als", "recommendation", "collaborative-filtering", "machine-learning", "ml", "implicit", "clustering", "anomaly-detection"],
+      "scriptCount": 7,
+      "dependencies": {
+        "python": [
+          "numpy>=1.26",
+          "scipy>=1.13",
+          "implicit>=0.7.2"
+        ],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/als-recommender/1.2.0/als-recommender-skill-v.1.2.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/als-recommender",
+      "publishedAt": "2026-05-28T10:00:00Z"
+    },
+    {
+      "name": "telegram-bot",
+      "version": "1.1.0",
+      "description": "Connects Agentory to Telegram. Each Agentory user can link their account to the bot and chat with the AI just like from the web interface — with access to tools, MCP, RAG and skills. Supports multi-user, automatic attachment delivery (PDFs and other files) and sessions persisted in the DB.",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["node"],
+      "tags": ["telegram", "bot", "chat", "messages", "daemon", "notifications"],
+      "scriptCount": 1,
+      "dependencies": {
+        "python": [],
+        "javascript": ["telegraf@4"]
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/telegram-bot/1.1.0/telegram-bot-skill-v1.1.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/telegram-bot",
+      "publishedAt": "2026-05-27T08:04:00Z"
+    },
+    {
+      "name": "files",
+      "version": "1.0.1",
+      "description": "Unified file management across all user locations: the local filesystem (SKILLS_OUTPUT_DIR) and network shares (SMB/CIFS-Samba, SFTP, WebDAV) configured as file-share DataSources. Search (automatic fan-out across all sources), read (text in chat, attach as download, or index into the vector store), write and delete. All I/O goes through the internal backend endpoint.",
+      "author": "info@rstonline.it",
+      "license": "AGPL-3.0-or-later",
+      "languages": ["python"],
+      "tags": ["file", "filesystem", "network-share", "smb", "sftp", "webdav", "search", "read", "write", "delete", "vector-store"],
+      "scriptCount": 4,
+      "dependencies": {
+        "python": [],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/files/1.0.1/files-skill-v1.0.1.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/files",
+      "publishedAt": "2026-07-08T00:00:00Z"
+    },
+    {
+      "name": "coverage-check",
+      "version": "2.5.0",
+      "description": "Analyzes functional coverage of elements against configurable zones. Supports multiple profiles, contextual required_if conditions and keyword matching. Optional integration with als-recommender for ML suggestions, per-zone anomaly detection and cluster profiles.",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python"],
+      "tags": ["coverage", "analysis", "zones", "profiles", "als", "ml", "required-if", "inter-skill"],
+      "scriptCount": 2,
+      "dependencies": {
+        "python": [],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/coverage-check/2.5.0/coverage-check-skill-v2.5.0.zip",
+      "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/coverage-check",
+      "publishedAt": "2026-05-28T10:00:00Z"
+    }
+  ]
+}
