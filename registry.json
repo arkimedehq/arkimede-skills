@@ -4,8 +4,8 @@
   "skills": [
     {
       "name": "dxf-analyzer",
-      "version": "1.1.0",
-      "description": "Analyzes DXF files (Drawing Exchange Format / AutoCAD): extracts geometric entities (LINE, ARC, CIRCLE, TEXT, INSERT, DIMENSION…), layers, blocks, metadata and statistics. Always saves a full JSON report to file; stdout returns only a lightweight summary with download_url. Supports all DXF versions (R10–R2018).",
+      "version": "1.1.1",
+      "description": "Analyzes DXF files (Drawing Exchange Format / AutoCAD): extracts geometric entities (LINE, ARC, CIRCLE, TEXT, INSERT, DIMENSION…), layers, blocks, metadata and statistics. Takes the chat attachment id as input (file-ref: the backend authorizes the file and copies it into the container). Always saves a full JSON report to file; stdout returns only a lightweight summary with download_url. Supports all DXF versions (R10–R2018).",
       "author": "info@rstonline.it",
       "license": "MIT",
       "languages": ["python"],
@@ -17,9 +17,9 @@
         ],
         "javascript": []
       },
-      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/dxf-analyzer/1.1.0/dxf-analyzer-skill-v1.1.0.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/dxf-analyzer/1.1.1/dxf-analyzer-skill-v1.1.1.zip",
       "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/dxf-analyzer",
-      "publishedAt": "2026-05-26T10:00:00Z"
+      "publishedAt": "2026-07-13T00:00:00Z"
     },
     {
       "name": "ascii-art",
