@@ -1,12 +1,12 @@
-# Agentory Skills Registry
+# Arkimede Skills Registry
 
-Public skill registry for [Agentory](https://github.com/agentoryhq/agentory).
+Public skill registry for [Arkimede](https://github.com/arkimedehq/arkimede).
 
-Link: https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/registry.json
+Link: https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/registry.json
 
 ## What are Skills
 
-Skills are ZIP packages that extend the Agentory AI with executable scripts (Python, Node.js). Anyone can contribute by publishing their skills here.
+Skills are ZIP packages that extend the Arkimede AI with executable scripts (Python, Node.js). Anyone can contribute by publishing their skills here.
 
 ## Available skills
 
@@ -17,13 +17,13 @@ Skills are ZIP packages that extend the Agentory AI with executable scripts (Pyt
 | [files](skills/files/) | 1.0.1 | Python | Unified file management across the local filesystem and network shares (SMB, SFTP, WebDAV): search with automatic fan-out, read (text/attach/embed), write and delete |
 | [pdf-generator-html](skills/pdf-generator-html/) | 1.1.0 | Node.js | Generates A4 PDFs from HTML via Puppeteer; supports tables, inline styles and inter-skill file sharing |
 | [gmail](skills/gmail/) | 1.3.0 | Python | Sends, reads, lists, replies to and forwards email via the Gmail API with OAuth2; supports attachments and a real-time daemon with configurable polling interval |
-| [telegram-bot](skills/telegram-bot/) | 1.1.0 | Node.js | Connects Agentory to Telegram; AI chat with access to all tools, multi-user, automatic attachment delivery and sessions persisted in the DB |
+| [telegram-bot](skills/telegram-bot/) | 1.1.0 | Node.js | Connects Arkimede to Telegram; AI chat with access to all tools, multi-user, automatic attachment delivery and sessions persisted in the DB |
 | [als-recommender](skills/als-recommender/) | 1.2.0 | Python | ALS Collaborative Filtering (implicit/explicit/biased): trains models from CSV, recommends by seed or session, item-item cosine similarity, cluster profiles, anomaly detection, cold start; callable as an ML service from other skills via the inter-skill bus |
 | [coverage-check](skills/coverage-check/) | 2.5.0 | Python | Analyzes functional coverage of elements across configurable zones (multiple profiles, contextual required\_if, keyword matching). Integrates with als-recommender for ML suggestions, per-zone anomaly detection and cluster profiles |
 
 ## How to install a skill
 
-From the **Settings → Public Skills** panel in Agentory: search for the skill and click **Install**.
+From the **Settings → Public Skills** panel in Arkimede: search for the skill and click **Install**.
 
 Alternatively, via API:
 ```bash
@@ -79,8 +79,8 @@ zip -r my-skill-1.0.0.zip .
     "python": ["requests>=2.31"],
     "javascript": []
   },
-  "downloadUrl": "https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/skills/my-skill/1.0.0/my-skill-1.0.0.zip",
-  "homepage": "https://github.com/agentoryhq/agentory-skills/tree/main/skills/my-skill",
+  "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/my-skill/1.0.0/my-skill-1.0.0.zip",
+  "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/my-skill",
   "publishedAt": "2026-01-01T00:00:00Z"
 }
 ```
@@ -96,7 +96,7 @@ zip -r my-skill-1.0.0.zip .
 ## Repository structure
 
 ```
-agentory-skills/
+arkimede-skills/
 ├── registry.json                   ← main index (updated with every PR)
 ├── README.md
 └── skills/
@@ -112,7 +112,7 @@ To use a custom registry (corporate or self-hosted), set in the backend:
 
 ```bash
 # backend/.env
-SKILLS_REGISTRY_URL=https://raw.githubusercontent.com/agentoryhq/agentory-skills/main/registry.json
+SKILLS_REGISTRY_URL=https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/registry.json
 SKILLS_REGISTRY_ALLOWED_DOMAINS=raw.githubusercontent.com,my-cdn.com
 ```
 

@@ -1,4 +1,4 @@
-# Creating a Skill for Agentory
+# Creating a Skill for Arkimede
 
 **Skills** are ZIP packages that extend the AI with executable Python or Node.js scripts.  
 The LLM autonomously decides when to use them, based on the instructions in `SKILL.md`.
@@ -223,7 +223,7 @@ def main():
     # Configuration variables
     upload_dir = _config.get('UPLOAD_DIR', '/app/uploads')
     output_dir = _config.get('OUTPUT_DIR', f"{upload_dir}/skills-output")
-    app_name   = _config.get('APP_NAME', 'Agentory')
+    app_name   = _config.get('APP_NAME', 'Arkimede')
 
     # ... logic ...
 
@@ -306,7 +306,7 @@ async function main() {
     // Configuration variables
     const uploadDir = _config.UPLOAD_DIR ?? path.join(process.cwd(), 'uploads');
     const outputDir = _config.OUTPUT_DIR ?? path.join(uploadDir, 'skills-output');
-    const appName   = _config.APP_NAME   ?? 'Agentory';
+    const appName   = _config.APP_NAME   ?? 'Arkimede';
 
     // ... logic ...
 
@@ -1984,7 +1984,7 @@ Use this prompt in chat (or ask the agent directly):
 
 **Oneshot skill (single script):**
 ```
-Create a skill for Agentory that [feature description].
+Create a skill for Arkimede that [feature description].
 
 Specs:
 - Language: [python | node | javascript]
@@ -2008,7 +2008,7 @@ Follow these conventions:
 
 **Multi-script skill (with @tool markers):**
 ```
-Create a skill for Agentory with multiple scripts: [script_1.py, script_2.py, ...].
+Create a skill for Arkimede with multiple scripts: [script_1.py, script_2.py, ...].
 
 For each script:
 - Separate description, input and output
@@ -2026,7 +2026,7 @@ Generate:
 
 **Skill with a daemon (watch/monitor):**
 ```
-Create a skill for Agentory that [feature description] and includes a monitoring
+Create a skill for Arkimede that [feature description] and includes a monitoring
 daemon that notifies the backend when [condition to monitor].
 
 Daemon specs:

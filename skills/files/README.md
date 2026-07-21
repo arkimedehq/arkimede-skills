@@ -1,6 +1,6 @@
 # Files — unified file management (local + network shares)
 
-Skill for **Agentory** that lets the AI operate on the user's files across
+Skill for **Arkimede** that lets the AI operate on the user's files across
 **all** their locations through a single interface: the backend's **local**
 filesystem (`Locale`, `SKILLS_OUTPUT_DIR` folder) and **network** shared folders
 (**SMB/CIFS-Samba, SFTP, WebDAV**) configured as file-share DataSources.

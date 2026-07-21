@@ -41,7 +41,7 @@ If you prefer to fill in the fields yourself, go to
 
 **1. Create the Google Cloud project**
 1. Go to [console.cloud.google.com](https://console.cloud.google.com)
-2. New project → give it a name (e.g. `Agentory Gmail`)
+2. New project → give it a name (e.g. `Arkimede Gmail`)
 3. **APIs & Services → Library** → search for **Gmail API** → Enable
 4. **APIs & Services → Credentials** → **Create OAuth client ID** → type **Desktop app**
 5. Copy **Client ID** and **Client Secret**
