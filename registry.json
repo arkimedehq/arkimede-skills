@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-10T00:00:00Z",
+  "updatedAt": "2026-07-30T00:00:00Z",
   "skills": [
     {
       "name": "dxf-analyzer",
@@ -151,6 +151,23 @@
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/coverage-check/2.5.0/coverage-check-skill-v2.5.0.zip",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/coverage-check",
       "publishedAt": "2026-05-28T10:00:00Z"
+    },
+    {
+      "name": "knx",
+      "version": "1.0.0",
+      "description": "Controls a KNX home-automation installation through a KNX/IP gateway (router or interface): switches lights, drives dimmers, shutters, scenes and thermostat setpoints via group-address writes, reads sensor/actuator state, monitors live bus traffic and discovers KNX/IP gateways on the LAN. Supports a configurable friendly-name map and all KNX datapoint types. Requires a granted LAN network (KNXnet/IP is UDP and cannot pass the HTTP egress proxy).",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python"],
+      "tags": ["knx", "home-automation", "domotics", "smart-home", "lights", "shutters", "sensors", "knxnet-ip"],
+      "scriptCount": 5,
+      "dependencies": {
+        "python": ["xknx>=3.0"],
+        "javascript": []
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/knx/1.0.0/knx-skill-v1.0.0.zip",
+      "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/knx",
+      "publishedAt": "2026-07-30T00:00:00Z"
     }
   ]
 }
