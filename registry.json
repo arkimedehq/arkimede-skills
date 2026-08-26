@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-31T00:00:00Z",
+  "updatedAt": "2026-08-26T00:00:00Z",
   "skills": [
     {
       "name": "dxf-analyzer",
@@ -103,20 +103,20 @@
     },
     {
       "name": "telegram-bot",
-      "version": "1.1.0",
-      "description": "Connects Arkimede to Telegram. Each Arkimede user can link their account to the bot and chat with the AI just like from the web interface — with access to tools, MCP, RAG and skills. Supports multi-user, automatic attachment delivery (PDFs and other files) and sessions persisted in the DB.",
+      "version": "1.2.0",
+      "description": "Connects Arkimede to Telegram, bidirectionally. Each Arkimede user can link their account to the bot and chat with the AI just like from the web interface — with access to tools, MCP, RAG and skills. The agent can also proactively send Telegram messages and files to the linked user (send_message tool) from any chat, scheduled task or flow. Supports multi-user, automatic attachment delivery and sessions persisted in the DB.",
       "author": "info@rstonline.it",
       "license": "MIT",
       "languages": ["node"],
       "tags": ["telegram", "bot", "chat", "messages", "daemon", "notifications"],
-      "scriptCount": 1,
+      "scriptCount": 2,
       "dependencies": {
         "python": [],
         "javascript": ["telegraf@4"]
       },
-      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram-bot/1.1.0/telegram-bot-skill-v1.1.0.zip",
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram-bot/1.2.0/telegram-bot-skill-v1.2.0.zip",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram-bot",
-      "publishedAt": "2026-05-27T08:04:00Z"
+      "publishedAt": "2026-08-26T00:00:00Z"
     },
     {
       "name": "files",
