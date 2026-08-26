@@ -18,6 +18,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/dxf-analyzer/1.1.1/dxf-analyzer-skill-v1.1.1.zip",
+      "checksum": "sha256:58f51ed6b240b7d0b1dc553ae60d7b1c0e3d1ac72b702a66ad72d77adc216014",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/dxf-analyzer",
       "publishedAt": "2026-07-13T00:00:00Z"
     },
@@ -38,6 +39,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/ascii-art/1.0.1/ascii-art-skill-v1.0.1.zip",
+      "checksum": "sha256:c0aac6b00c7421840ef06a96e263cb0e2ee2775897b82b6bf29fa3a98ef81d74",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/ascii-art",
       "publishedAt": "2026-07-10T00:00:00Z"
     },
@@ -55,6 +57,7 @@
         "javascript": ["puppeteer@22"]
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/pdf-generator-html/1.1.0/pdf-generator-html-skill-v1.1.0.zip",
+      "checksum": "sha256:9a9d97bac25cbbefe199b5fc5c0fccb1cc3c30c8f3bc3c1e1bb1f1159524c1d1",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/pdf-generator-html",
       "publishedAt": "2026-05-25T15:00:00Z"
     },
@@ -77,6 +80,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/gmail/1.3.0/gmail-skill-v1.3.0.zip",
+      "checksum": "sha256:175fc06025aaf18beb834e80a96170fe4e55e37c86883afc293f50a6bc279a7d",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/gmail",
       "publishedAt": "2026-05-27T08:04:00Z"
     },
@@ -98,6 +102,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/als-recommender/1.2.0/als-recommender-skill-v.1.2.0.zip",
+      "checksum": "sha256:1fbef606df6ecf47f5ce02fd60166c3a67a4862f603b1e00f453144cfd7df0fc",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/als-recommender",
       "publishedAt": "2026-05-28T10:00:00Z"
     },
@@ -115,6 +120,7 @@
         "javascript": ["telegraf@4"]
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram-bot/1.2.0/telegram-bot-skill-v1.2.0.zip",
+      "checksum": "sha256:d948fa269f946a9afcf82951bf31e1130e757bf35e948aad73e2d14ab46d10df",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram-bot",
       "publishedAt": "2026-08-26T00:00:00Z"
     },
@@ -132,6 +138,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/files/1.0.1/files-skill-v1.0.1.zip",
+      "checksum": "sha256:692653d63d5b7efe6254fb044587aed17658f1a0f3c6ae382e4cda8fecce10f1",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/files",
       "publishedAt": "2026-07-08T00:00:00Z"
     },
@@ -149,6 +156,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/coverage-check/2.5.0/coverage-check-skill-v2.5.0.zip",
+      "checksum": "sha256:4923a70678f43d8fd062b0f75682cd9f0066d62049af75c1223de5aec32d5d17",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/coverage-check",
       "publishedAt": "2026-05-28T10:00:00Z"
     },
@@ -166,6 +174,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/knx/1.0.1/knx-skill-v1.0.1.zip",
+      "checksum": "sha256:120c90c04ae7537cd3fe00fe35b449d7611894ed0c9ccfa7f52f6fe0007a999f",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/knx",
       "publishedAt": "2026-07-31T00:00:00Z"
     }
