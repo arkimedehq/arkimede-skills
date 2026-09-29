@@ -581,11 +581,11 @@ Do you have explicit ratings (1-5 stars, scores)?
 | Package | Version | Used by |
 |---|---|---|
 | `numpy` | ≥ 1.26 | all scripts |
-| `scipy` | ≥ 1.13 | `implicit` (sparse matrices) + KMeans in `train.py` |
-| `implicit` | ≥ 0.7.2 | `implicit` variant (iALS) |
+| `scipy` | ≥ 1.13 | sparse matrices of the `implicit` variant + KMeans in `train.py` |
 
-The `explicit` and `biased` variants, and the inference scripts (`recommend.py`, `similar.py`,
-`cluster_profiles.py`, `anomalies.py`, `popular.py`, `info.py`) use only `numpy`.
+Every variant and script is pure `numpy`/`scipy`: no system library is required. Since 1.2.1 the
+`implicit` variant no longer uses the `implicit` library, which needed the OpenMP runtime
+(`libgomp`) that skill runners do not ship.
 
 ---
 

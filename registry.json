@@ -86,7 +86,7 @@
     },
     {
       "name": "als-recommender",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Collaborative Filtering via ALS (Alternating Least Squares): trains models on CSV data and provides seed- or session-based recommendations, item-item cosine similarity, KMeans cluster profiles, anomaly detection and cold-start fallback. Supports implicit, explicit and biased variants. Callable as an ML service from other skills via the inter-skill bus.",
       "author": "info@rstonline.it",
       "license": "MIT",
@@ -96,15 +96,14 @@
       "dependencies": {
         "python": [
           "numpy>=1.26",
-          "scipy>=1.13",
-          "implicit>=0.7.2"
+          "scipy>=1.13"
         ],
         "javascript": []
       },
-      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/als-recommender/1.2.0/als-recommender-skill-v.1.2.0.zip",
-      "checksum": "sha256:1fbef606df6ecf47f5ce02fd60166c3a67a4862f603b1e00f453144cfd7df0fc",
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/als-recommender/1.2.1/als-recommender-skill-v.1.2.1.zip",
+      "checksum": "sha256:26044f0e01000b47632a2769a5d3b59b240c0b37f4d0332247c2a497f927dd24",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/als-recommender",
-      "publishedAt": "2026-05-28T10:00:00Z"
+      "publishedAt": "2026-09-29T10:00:00Z"
     },
     {
       "name": "telegram-bot",
