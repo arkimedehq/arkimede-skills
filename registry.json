@@ -63,7 +63,7 @@
     },
     {
       "name": "gmail",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "description": "Full Gmail integration. Sends, reads, lists, replies to and forwards email via the official Google Gmail API with OAuth2. Supports outgoing attachments (send, reply, forward) with automatic MIME detection. Includes a real-time monitoring daemon (watch via History API) that instantly push-notifies the backend when new email arrives in the INBOX; polling interval configurable via GMAIL_POLL_INTERVAL.",
       "author": "info@rstonline.it",
       "license": "MIT",
@@ -79,10 +79,10 @@
         ],
         "javascript": []
       },
-      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/gmail/1.3.0/gmail-skill-v1.3.0.zip",
-      "checksum": "sha256:175fc06025aaf18beb834e80a96170fe4e55e37c86883afc293f50a6bc279a7d",
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/gmail/1.3.1/gmail-skill-v1.3.1.zip",
+      "checksum": "sha256:ec401e88e59d0251ae898ec6cff3478020560141c3d9c01b52ed2ff9aa4b0146",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/gmail",
-      "publishedAt": "2026-05-27T08:04:00Z"
+      "publishedAt": "2026-09-29T13:00:00Z"
     },
     {
       "name": "als-recommender",
