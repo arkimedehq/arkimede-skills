@@ -11,6 +11,7 @@ is the full reference; this page adds the notes for installing it in Arkimede.
 
 | Version | Changes |
 |---|---|
+| 1.0.1 | An empty `ALLOWED_RECIPIENTS` means no limit: any contact by name, `@username` or `+phone`, anyone else by `@username` (`recipient_not_found` when nobody matches); `find_contact` searches the address book, `status` reports `"all"` |
 | 1.0.0 | First release: `send_message`, `delete_message`, `read_messages`, `find_contact`, `status`; login and logout run by the account owner |
 
 ---
