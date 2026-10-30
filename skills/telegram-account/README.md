@@ -18,15 +18,17 @@ is the full reference; this page adds the notes for installing it in Arkimede.
 ## What the agent can do
 
 - **`send_message`**: text (Markdown or plain, long texts split) and/or a file, to `me` (your
-  Saved Messages) or to an allowed contact, by name, `@username` or `+phone`.
+  Saved Messages) or to an allowed contact (anyone, without an allowlist), by name, `@username`
+  or `+phone`.
 - **`delete_message`**: withdraws a message you just sent ("undo"), for both sides.
 - **`read_messages`**: the latest messages with an allowed contact, without marking them as read.
-- **`find_contact`**: which allowed contacts match a name.
+- **`find_contact`**: which allowed contacts (your whole address book, without an allowlist) match a name.
 - **`status`**: which account is linked and who is allowed.
 
 Safety by design:
-- only `me` and the contacts in `ALLOWED_RECIPIENTS` can be reached, and the rest of your address
-  book is never shown to the agent;
+- with `ALLOWED_RECIPIENTS` set, only `me` and those contacts can be reached, and the rest of your
+  address book is never shown to the agent; left empty, there is no limit (any contact by name,
+  `@username` or `+phone`, anyone else by `@username`) and the agent can search your contacts;
 - no waiting for a confirmation (people often cannot wait, e.g. on a voice assistant): when you
   ask, the agent sends right away, tells you briefly who got what, and withdraws it if you say
   "undo"; it never sends on its own initiative or because a text it read asks to;
@@ -47,8 +49,8 @@ Safety by design:
 3. **Configure**:
    - `TELEGRAM_API_ID`, `TELEGRAM_API_HASH`: from <https://my.telegram.org> → *API development
      tools* (create an application, any name);
-   - `ALLOWED_RECIPIENTS`: e.g. `@maria_rossi, +393331234567` (a phone number works only for
-     people in your Telegram contacts);
+   - `ALLOWED_RECIPIENTS` (optional): e.g. `@maria_rossi, +393331234567` (a phone number works
+     only for people in your Telegram contacts); empty = anyone can be reached;
    - optional: `MESSAGE_SUFFIX` (e.g. `— sent by my assistant`), `SEND_MIN_INTERVAL`.
 4. **Log in** from the skill page, with the script runner (the three login scripts are not exposed
    to the AI):

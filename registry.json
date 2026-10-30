@@ -127,7 +127,7 @@
     {
       "name": "telegram-account",
       "version": "1.0.0",
-      "description": "Sends and reads Telegram messages from the user's own Telegram account (user API via Telethon, not a bot), so the agent can write to contacts who never wrote first, as the user. Recipients are limited to the user's Saved Messages and an allowlist chosen by the account owner; the login (code + optional 2FA) is run by the owner, never by the agent, and the session is never printed. Agent-agnostic: JSON on stdin/stdout, config from env or _config.",
+      "description": "Sends and reads Telegram messages from the user's own Telegram account (user API via Telethon, not a bot), so the agent can write to contacts who never wrote first, as the user. The account owner can limit recipients to an allowlist (plus the user's Saved Messages); without one, any contact or @username can be reached; the login (code + optional 2FA) is run by the owner, never by the agent, and the session is never printed. Agent-agnostic: JSON on stdin/stdout, config from env or _config.",
       "author": "info@rstonline.it",
       "license": "MIT",
       "languages": ["python"],
@@ -138,7 +138,7 @@
         "javascript": []
       },
       "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram-account/1.0.0/telegram-account-skill-v1.0.0.zip",
-      "checksum": "sha256:1b2032ab276ec936dbce46e58ced8d2cdd34791c86b6c4e74f61f3bc71ee923a",
+      "checksum": "sha256:0b15368120383a318201908b08f05d9982eef0b9a77a0f4103222410421502f6",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram-account",
       "publishedAt": "2026-10-29T00:00:00Z"
     },
