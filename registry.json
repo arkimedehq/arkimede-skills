@@ -108,7 +108,7 @@
     },
     {
       "name": "telegram-bot",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Connects Arkimede to Telegram, bidirectionally. Each Arkimede user can link their account to the bot and chat with the AI just like from the web interface — with access to tools, MCP, RAG and skills. The agent can also proactively send Telegram messages and files to the linked user (send_message tool) from any chat, scheduled task or flow. Supports multi-user, automatic attachment delivery and sessions persisted in the DB.",
       "author": "info@rstonline.it",
       "license": "MIT",
@@ -119,10 +119,10 @@
         "python": [],
         "javascript": ["telegraf@4"]
       },
-      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram-bot/1.2.0/telegram-bot-skill-v1.2.0.zip",
-      "checksum": "sha256:d948fa269f946a9afcf82951bf31e1130e757bf35e948aad73e2d14ab46d10df",
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram-bot/1.2.1/telegram-bot-skill-v1.2.1.zip",
+      "checksum": "sha256:520015af7292fd96ac738b63ddc50122b6eda8a230a00f63addee207058dab38",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram-bot",
-      "publishedAt": "2026-08-26T00:00:00Z"
+      "publishedAt": "2026-10-31T00:00:00Z"
     },
     {
       "name": "telegram-account",
