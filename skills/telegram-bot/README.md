@@ -167,8 +167,13 @@ the bot replies with a message inviting the user to repeat `/login`.
 
 ## Version
 
-`1.2.0` — August 2026 · MIT License  
-_New in v1.2.0: bidirectional channel — new LLM-callable `send_message` tool for
+`1.2.1` — October 2026 · MIT License  
+_New in v1.2.1: the daemon keeps polling through transient Telegram errors — a 409
+Conflict (another process still reading with the same token, e.g. right after a
+restart) or a failure while connecting — retrying with growing pauses (5 s → 5 min)
+instead of exiting; only an invalid token stops it._
+
+_v1.2.0: bidirectional channel — new LLM-callable `send_message` tool for
 proactive agent → user Telegram messages (text + optional file attachment) from any
 chat, scheduled task or flow._
 
