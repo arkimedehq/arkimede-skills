@@ -30,6 +30,12 @@ API (MTProto, via [Telethon](https://docs.telethon.dev)), and optionally a **bot
 Never handed over: groups, channels, bots, people outside the account's contacts; with
 `ALLOWED_RECIPIENTS` set, only those people.
 
+**What the agent may do for them.** A contact gets **answers only**: no action — nothing at home,
+no message, no reminder, no tool — and your memories stay private. In `dedicated` mode the
+`AUTHORIZED_CONTACTS` (e.g. `@maria_rossi, +393331234567`) may have the agent do anything, as its owner.
+In `personal` mode no contact is ever authorized: you talk to the agent with full powers through
+the **bot**.
+
 The turn runs as the Arkimede account that owns the daemon: in `dedicated` mode install and start
 the skill on the agent's own account (e.g. the account voice runs as), in `personal` mode on yours.
 Each person gets a chat of their own in that account, and the memory knows who is speaking from
@@ -52,7 +58,7 @@ their Telegram id — bind it once as their `telegram` address on their card in 
    - `TELEGRAM_API_ID`, `TELEGRAM_API_HASH`: from <https://my.telegram.org> → *API development
      tools* (create an application, any name);
    - `ALLOWED_RECIPIENTS` (optional): e.g. `@maria_rossi, +393331234567`; empty = any contact;
-   - optional: `REPLY_WINDOW_HOURS`, `MESSAGE_SUFFIX`, `SEND_MIN_INTERVAL`, `TELEGRAM_BOT_TOKEN`.
+   - optional: `AUTHORIZED_CONTACTS` (dedicated mode), `REPLY_WINDOW_HOURS`, `MESSAGE_SUFFIX`, `SEND_MIN_INTERVAL`, `TELEGRAM_BOT_TOKEN`.
 4. **Log in** from the skill page with the script runner (not exposed to the AI): `login_start`
    with the phone number, then `login_finish` with the code Telegram sent (and the 2FA password,
    if any). `status` confirms it.
