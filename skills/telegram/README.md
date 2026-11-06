@@ -42,9 +42,11 @@ their Telegram id — bind it once as their `telegram` address on their card in 
 
 1. **Install** from *Settings → Public Skills*, on the account that will own the conversations
    (above), and keep it **personal**.
-2. **Network**: MTProto connects to Telegram's IP addresses, not to an HTTP domain: an admin sets
-   the skill's network to **open** (open the skill → *Network access*). The bot uses
-   `api.telegram.org`.
+2. **Network**: nothing to do. MTProto connects to Telegram's data centres by IP address, not by
+   name: the skill declares their published ranges (<https://core.telegram.org/resources/cidr.txt>)
+   next to `api.telegram.org` (the bot), and goes through the host's egress proxy (Arkimede with
+   IP ranges in `network:`). On an older Arkimede, an admin sets the skill's network to **open**
+   (open the skill → *Network access*).
 3. **Configure**:
    - `ACCOUNT_MODE`: `personal` or `dedicated`;
    - `TELEGRAM_API_ID`, `TELEGRAM_API_HASH`: from <https://my.telegram.org> → *API development
