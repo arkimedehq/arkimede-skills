@@ -34,7 +34,8 @@ Never handed over: groups, channels, bots, people outside the account's contacts
 no message, no reminder, no tool — and your memories stay private. The `AUTHORIZED_CONTACTS`
 (e.g. `@maria_rossi, +393331234567`) may have the agent do anything, as its owner. In `personal` mode
 only what they mean for the agent reaches it: a reply to its message, or a message starting with
-its name (`AGENT_NAME`, e.g. "Arkimede, accendi la luce in cucina"); everything else stays your
+its name (`AGENT_NAME`; empty = the installation's name, Arkimede's `APP_NAME` — e.g. "Arkimede,
+accendi la luce in cucina"); everything else stays your
 conversation with them. You talk to the agent with full powers through the **bot**.
 
 The turn runs as the Arkimede account that owns the daemon: in `dedicated` mode install and start
