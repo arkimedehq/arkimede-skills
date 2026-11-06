@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-08-26T00:00:00Z",
+  "updatedAt": "2026-11-05T00:00:00Z",
   "skills": [
     {
       "name": "dxf-analyzer",
@@ -109,7 +109,7 @@
     {
       "name": "telegram-bot",
       "version": "1.2.1",
-      "description": "Connects Arkimede to Telegram, bidirectionally. Each Arkimede user can link their account to the bot and chat with the AI just like from the web interface — with access to tools, MCP, RAG and skills. The agent can also proactively send Telegram messages and files to the linked user (send_message tool) from any chat, scheduled task or flow. Supports multi-user, automatic attachment delivery and sessions persisted in the DB.",
+      "description": "Deprecated: use the telegram skill, which replaces it. Connects Arkimede to Telegram, bidirectionally. Each Arkimede user can link their account to the bot and chat with the AI just like from the web interface — with access to tools, MCP, RAG and skills. The agent can also proactively send Telegram messages and files to the linked user (send_message tool) from any chat, scheduled task or flow. Supports multi-user, automatic attachment delivery and sessions persisted in the DB.",
       "author": "info@rstonline.it",
       "license": "MIT",
       "languages": ["node"],
@@ -127,7 +127,7 @@
     {
       "name": "telegram-account",
       "version": "1.0.1",
-      "description": "Sends and reads Telegram messages from the user's own Telegram account (user API via Telethon, not a bot), so the agent can write to contacts who never wrote first, as the user. The account owner can limit recipients to an allowlist (plus the user's Saved Messages); without one, any contact or @username can be reached; the login (code + optional 2FA) is run by the owner, never by the agent, and the session is never printed. Agent-agnostic: JSON on stdin/stdout, config from env or _config.",
+      "description": "Deprecated: use the telegram skill, which replaces it. Sends and reads Telegram messages from the user's own Telegram account (user API via Telethon, not a bot), so the agent can write to contacts who never wrote first, as the user. The account owner can limit recipients to an allowlist (plus the user's Saved Messages); without one, any contact or @username can be reached; the login (code + optional 2FA) is run by the owner, never by the agent, and the session is never printed. Agent-agnostic: JSON on stdin/stdout, config from env or _config.",
       "author": "info@rstonline.it",
       "license": "MIT",
       "languages": ["python"],
@@ -141,6 +141,26 @@
       "checksum": "sha256:f2bf2d50cae56edc32365990003ee3f15ac398d661f1fb760142cb80008c0f7a",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram-account",
       "publishedAt": "2026-10-30T00:00:00Z"
+    },
+    {
+      "name": "telegram",
+      "version": "1.0.0",
+      "description": "Telegram for the agent, through a Telegram account — its own, or yours — and optionally a bot: messages and files to any contact (or an allowlist), reading and withdrawing; the listener daemon hands the contacts' messages to the agent, which answers them (personal mode: only replies to what it wrote); the bot lets every Arkimede user chat with the agent from Telegram. A user channel: Arkimede delivers the memory's reminders through it with no model in between. Replaces telegram-bot and telegram-account.",
+      "author": "info@rstonline.it",
+      "license": "MIT",
+      "languages": ["python", "node"],
+      "tags": ["telegram", "messages", "notifications", "contacts", "messaging", "bot", "daemon"],
+      "scriptCount": 10,
+      "dependencies": {
+        "python": ["telethon>=1.36,<2", "python-socks[asyncio]>=2.4"],
+        "javascript": [
+          "telegraf@4"
+        ]
+      },
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram/1.0.0/telegram-skill-v1.0.0.zip",
+      "checksum": "sha256:9f0db5a41ec6f1de18706c05895eb6f2167b5fd8746b2959fc1ae60cb127fef9",
+      "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram",
+      "publishedAt": "2026-11-05T00:00:00Z"
     },
     {
       "name": "files",

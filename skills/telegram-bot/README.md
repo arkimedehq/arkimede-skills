@@ -1,5 +1,7 @@
 # 💬 Telegram Bot — Arkimede Chat on Telegram
 
+> **Deprecated** — replaced by the [telegram](../telegram/) skill (the account and the bot in one, with the listener). This version stays available.
+
 Connects Arkimede to Telegram. Every Arkimede user can link their account
 to the bot and chat as if they were using the web interface — with full access
 to all the tools, MCP, RAG and skills configured in their profile.

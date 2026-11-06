@@ -1,5 +1,7 @@
 # 💬 Telegram Account — write on Telegram as yourself
 
+> **Deprecated** — replaced by the [telegram](../telegram/) skill (the account and the bot in one, with the listener). This version stays available.
+
 Lets the agent send and read Telegram messages **from your own Telegram account**, through
 Telegram's user API (MTProto, via [Telethon](https://docs.telethon.dev)). Unlike a bot, it can
 write to people who never wrote to it first ("tell Maria I'll be late"), and the messages appear
