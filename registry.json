@@ -63,7 +63,8 @@
     },
     {
       "name": "gmail",
-      "version": "1.3.2",
+      "version": "1.3.3",
+      "audience": "personal",
       "description": "Full Gmail integration. Sends, reads, lists, replies to and forwards email via the official Google Gmail API with OAuth2. Supports outgoing attachments (send, reply, forward) with automatic MIME detection. Includes a real-time monitoring daemon (watch via History API) that instantly push-notifies the backend when new email arrives in the INBOX; polling interval configurable via GMAIL_POLL_INTERVAL.",
       "author": "info@rstonline.it",
       "license": "MIT",
@@ -80,10 +81,10 @@
         ],
         "javascript": []
       },
-      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/gmail/1.3.2/gmail-skill-v1.3.2.zip",
-      "checksum": "sha256:aa98992729aa86a4dadb2fd970b51574af736e6a685a4d487197bcf879e2cbf6",
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/gmail/1.3.3/gmail-skill-v1.3.3.zip",
+      "checksum": "sha256:e4b79981c519479dab892f81359ce0b877b3d47b7e861e9adb832f29375aac6e",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/gmail",
-      "publishedAt": "2026-09-29T15:45:00Z"
+      "publishedAt": "2026-11-09T00:00:00Z"
     },
     {
       "name": "als-recommender",
@@ -108,7 +109,8 @@
     },
     {
       "name": "telegram",
-      "version": "1.0.0",
+      "version": "1.0.1",
+      "audience": "personal",
       "description": "Telegram for the agent, through a Telegram account — its own, or yours — and optionally a bot: messages and files to any contact (or an allowlist), reading and withdrawing; the listener daemon hands the contacts' messages to the agent, which answers them (personal mode: only replies to what it wrote); the bot lets every Arkimede user chat with the agent from Telegram. A user channel: Arkimede delivers the memory's reminders through it with no model in between. Replaces telegram-bot and telegram-account.",
       "author": "info@rstonline.it",
       "license": "MIT",
@@ -121,10 +123,10 @@
           "telegraf@4"
         ]
       },
-      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram/1.0.0/telegram-skill-v1.0.0.zip",
-      "checksum": "sha256:9f0db5a41ec6f1de18706c05895eb6f2167b5fd8746b2959fc1ae60cb127fef9",
+      "downloadUrl": "https://raw.githubusercontent.com/arkimedehq/arkimede-skills/main/skills/telegram/1.0.1/telegram-skill-v1.0.1.zip",
+      "checksum": "sha256:bd7fb730d2d94d97e1649d56e17ff74f7ca0e2f031dc14e54382cbc2e975f43d",
       "homepage": "https://github.com/arkimedehq/arkimede-skills/tree/main/skills/telegram",
-      "publishedAt": "2026-11-06T00:00:00Z"
+      "publishedAt": "2026-11-09T00:00:00Z"
     },
     {
       "name": "files",
